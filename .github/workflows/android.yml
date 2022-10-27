@@ -24,3 +24,6 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+- name: Flank
+  uses: Flank/flank@v22.10.0
+
